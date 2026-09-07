@@ -2,7 +2,7 @@
 layout: default
 title: Blog
 permalink: /blog/
-nav: true
+nav: false
 nav_order: 2
 pagination:
   enabled: true

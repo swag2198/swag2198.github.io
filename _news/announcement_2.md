@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2023-06-19 15:59:00-0400
+date: 2025-12-01
 inline: true
 ---
 
-Graduated with a B.Sc. in Computer Engineering from Boğaziçi University 🎓!
+Started working at OpenEuroLLM! Also attending [EurIPS](https://eurips.cc/) at Copenhagen.Presenting a poster 📜 on my master's thesis at [Amortized ProbML](https://sites.google.com/view/amortizedprobml/home?authuser=0): ELLIS UnConference Workshop.

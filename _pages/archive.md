@@ -2,7 +2,7 @@
 layout: page
 title: Random
 permalink: /archive/
-description: some random academic snaps over the years!
+description: Some random academic snaps over the years!
 nav: true
 nav_order: 3
 display_categories: 

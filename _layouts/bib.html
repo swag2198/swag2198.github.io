@@ -96,6 +96,8 @@
             {%- capture entrytype -%}<em>Master's Thesis{% if entry.school %}, {{entry.school}}{% endif %}</em>{%- endcapture -%}
           {%- elsif entry.type == "phdthesis" -%}
             {%- capture entrytype -%}<em>PhD Thesis{% if entry.school %}, {{entry.school}}{% endif %}</em>{%- endcapture -%}
+          {%- elsif entry.type == "misc" and entry.arxiv -%}
+            {%- capture entrytype -%}<em>Preprint</em>{%- endcapture -%}
           {%- else -%}
             {%- capture entrytype -%}{%- endcapture -%}
           {%- endif -%}

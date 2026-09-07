@@ -1,6 +1,27 @@
 ---
 ---
 
+@misc{jha2026amortizingscalinglawconstruction,
+  title={Amortizing Scaling Law Construction Costs}, 
+  author={Jha, Abhash Kumar and Onuţu, Diana Alexandra and Mallik, Neeratyoy and Haldar, Swagatam and Laing, Sam and Ajroldi, Niccolò and Liu, Shiwei and Vanschoren, Joaquin and Klein, Aaron},
+      equal_contrib={Jha, Onuţu, Mallik, Haldar},
+      year={2026},
+      eprint={2609.05016},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2609.05016},
+      arxiv={2609.05016},
+      bibtex_show={true},
+      teaser={assets/img/publications/lcb_vs_ei_acq.mp4},
+      selected={true},
+  abstract = 	 {Scaling laws guide the design choices for training large foundation models, but deriving them involves training an exhaustive grid over hyperparameters, token budgets, and parameter counts, which is computationally expensive. 
+Fitting a scaling law, however, only requires the best-loss frontier across compute scales, discarding most of the trained configurations.
+We propose a framework for efficient scaling law construction that formulates data collection as a Bayesian optimization problem, and introduce metrics for comparing scaling law fitting methods under constrained compute budgets.
+We find that progressively expanding the compute budget during acquisition, mirroring the compute-ordered evaluation of configurations in practice, substantially improves recovery efficiency. 
+Augmenting the observed configurations with surrogate-fantasized evaluations then recovers the broader experimental grid, allowing accurate scaling law fitting without training every configuration. 
+Together, these can closely match scaling law fits over a full dense grid at computational savings of up to 10-100x.}
+}
+
 @mastersthesis{haldar_autosbi_thesis,
   title={AutoML for Simulation-based Inference},
   author={Haldar, Swagatam},
