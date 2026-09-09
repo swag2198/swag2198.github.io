@@ -8,11 +8,11 @@ middle_name:
 last_name: Haldar
 email: swagatam.haldar9@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  <A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Swagatam Haldar is a researcher at the ELLIS Institute Tübingen working on LLM scaling laws, pretraining, and simulation-based inference.
 footer_text: > 
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords: Swagatam Haldar, machine learning, LLM scaling laws, simulation-based inference, explainable AI, ELLIS Institute Tübingen  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: "ship.png"  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -46,9 +46,9 @@ max_width: 800px
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: https://swag2198.github.io/assets/img/sunglasses_on.jpg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
