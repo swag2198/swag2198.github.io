@@ -1,8 +1,0 @@
-
-          <div class="publications" id="research">
-            <h2>Research</h2>
-            {%- if page.publications_intro %}
-            <p>{{ page.publications_intro }}</p>
-            {%- endif %}
-            {% bibliography -f papers -q @*[selected=true]* %}
-          </div>
